@@ -1,0 +1,832 @@
+/* ALL common CSS files should start here */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ALL common CSS files should end here */
+
+.main{
+    background-color: #f0f0f0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+h1{
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Flag of Bangladesh should be here */
+
+.bangladeshi_material{
+    height: 300px;
+    width: 450px;
+    background-color: #e8f5e9;
+    border: 1px solid #c8e6c9;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.bangladesh{
+    height: 200px;
+    width: 400px;
+    background-color: #008000;
+    color: #00796b;
+    font-size: 1.2em;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.bangladesh_flag{
+    height: 100px;
+    width: 100px;
+    background-color: #ff0000;
+    position: absolute;
+    border-radius: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tittle{
+    text-align: center;
+    font-size: 1.5em;
+    color: #004d40;
+    margin-top: 20px;
+}
+
+/* Flag of India should be here */
+
+.indian_material{
+    height: 300px;
+    width: 450px;
+    background-color: #fff3e0;
+    border: 1px solid #ffe0b2;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.india{
+    height: 200px;
+    width: 400px;
+    background-color: #f0f0f0;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.india_flag_a{
+    height: 66.6px;
+    width: 400px;
+    background-color: #ff9800;
+}
+
+.india_flag_b{
+    height: 66.6px;
+    width: 400px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.india_flag_b img{
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.india_flag_c{
+    height: 66.6px;
+    width: 400px;
+    background-color: #008000;
+}
+
+/* Flag of Pakistan should be here */
+
+.pakistani_material{
+    height: 300px;
+    width: 450px;
+    background-color: #e8f5e9;
+    border: 1px solid #c8e6c9;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.pakistan{
+    height: 200px;
+    width: 400px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.pakistan_flag_a{
+    height: 200px;
+    width: 133.3px;
+    background-color: #ffffff;
+    float: left;
+}
+
+.pakistan_flag_b{
+    height: 200px;
+    width: 266.6px;
+    background-color: #008000;
+    float: left;
+    position: relative;
+}
+
+.pakistan_flag_b img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+/* Flag of Austria should be here */
+
+.austria_material{
+    height: 300px;
+    width: 450px;
+    background-color: #fce4ec;
+    border: 1px solid #f8bbd0;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.austria{
+    height: 200px;
+    width: 400px;
+    background-color: #ff0000;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.austria_flag_a{
+    height: 66.6px;
+    width: 400px;
+    background-color: #ff0000;
+}
+
+.austria_flag_b{
+    height: 66.6px;
+    width: 400px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.austria_flag_c{
+    height: 66.6px;
+    width: 400px;
+    background-color: #ff0000;
+}
+
+/* Flag of Argentina should be here */
+
+.argentina_material{
+    height: 300px;
+    width: 450px;
+    background-color: #e3f2fd;
+    border: 1px solid #bbdefb;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.argentina{
+    height: 200px;
+    width: 400px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.argentina_flag_a{
+    height: 66.6px;
+    width: 400px;
+    background-color: #00bcd4;
+}
+
+.argentina_flag_b{
+    height: 66.6px;
+    width: 400px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.argentina_flag_b img{
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.argentina_flag_c{
+    height: 66.6px;
+    width: 400px;
+    background-color: #00bcd4;
+}
+
+/* Flag of Germany should be here */
+
+.german_material{
+    height: 300px;
+    width: 450px;
+    background-color: #fff3e0;
+    border: 1px solid #ffe0b2;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.germany{
+    height: 200px;
+    width: 400px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.germany_flag_a{
+    height: 66.6px;
+    width: 400px;
+    background-color: #000000;
+}
+
+.germany_flag_b{
+    height: 66.6px;
+    width: 400px;
+    background-color: #ff0000;
+}
+
+.germany_flag_c{
+    height: 66.6px;
+    width: 400px;
+    background-color: #ffcc00;
+}
+
+/* Flag of Belgium should be here */
+
+.belgium_material{
+    height: 300px;
+    width: 450px;
+    background-color: #f3e5f5;
+    border: 1px solid #e1bee7;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.belgium{
+    height: 200px;
+    width: 400px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.belgium_flag_a{
+    height: 200px;
+    width: 133.3px;
+    background-color: #000000;
+    float: left;
+}
+
+.belgium_flag_b{
+    height: 200px;
+    width: 133.3px;
+    background-color: #ffcc00;
+    float: left;
+}
+
+.belgium_flag_c{
+    height: 200px;
+    width: 133.3px;
+    background-color: #ff0000;
+    float: left;
+}
+
+/* Flag of Japan should be here */
+
+.japani_material{
+    height: 300px;
+    width: 450px;
+    background-color: #e3f2fd;
+    border: 1px solid #bbdefb;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.japan{
+    height: 200px;
+    width: 400px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 5px;
+    position: relative;
+}
+
+.japan_flag{
+    height: 100px;
+    width: 100px;
+    background-color: #ff0000;
+    position: absolute;
+    border-radius: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Flag of Chad should be here */
+
+.chad_material{
+    height: 300px;
+    width: 450px;
+    background-color: #e3f2fd;
+    border: 1px solid #bbdefb;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.chad{
+    height: 200px;
+    width: 400px;
+    background-color: #000000;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.chad_flag_a{
+    height: 200px;
+    width: 133.3px;
+    background-color: #0000ff;
+    float: left;
+}
+
+.chad_flag_b{
+    height: 200px;
+    width: 133.3px;
+    background-color: #ffcc00;
+    float: left;
+}
+
+.chad_flag_c{
+    height: 200px;
+    width: 133.3px;
+    background-color: #ff0000;
+    float: left;
+}
+
+/* Flag of Armenia should be here */
+
+.armenia_material{
+    height: 300px;
+    width: 450px;
+    background-color: #f3e5f5;
+    border: 1px solid #e1bee7;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.armenia{
+    height: 200px;
+    width: 400px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.armenia_flag_a{
+    height: 66.6px;
+    width: 400px;
+    background-color: #ff0000;
+}
+
+.armenia_flag_b{
+    height: 66.6px;
+    width: 400px;
+    background-color: #0000ff;
+}
+
+.armenia_flag_c{
+    height: 66.6px;
+    width: 400px;
+    background-color: #ffa500;
+}
+
+/* Flag of Benin should be here */
+
+.benin_material{
+    height: 300px;
+    width: 450px;
+    background-color: #e8f5e9;
+    border: 1px solid #c8e6c9;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.benin{
+    height: 200px;
+    width: 400px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.benin_flag_a{
+    height: 200px;
+    width: 133.3px;
+    background-color: #008000;
+    float: left;
+}
+
+.benin_flag_b{
+    height: 100px;
+    width: 266.6px;
+    background-color: #ffcc00;
+    float: left;
+}
+
+.benin_flag_c{
+    height: 100px;
+    width: 266.6px;
+    background-color: #ff0000;
+    float: left;
+}
+
+/* Flag of Bulgaria should be here */
+
+.bulgaria_material{
+    height: 300px;
+    width: 450px;
+    background-color: #f3e5f5;
+    border: 1px solid #e1bee7;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.bulgaria{
+    height: 200px;
+    width: 400px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.bulgaria_flag_a{
+    height: 66.6px;
+    width: 400px;
+    background-color: #ffffff;
+}
+
+.bulgaria_flag_b{
+    height: 66.6px;
+    width: 400px;
+    background-color: #008000;
+}
+
+.bulgaria_flag_c{
+    height: 66.6px;
+    width: 400px;
+    background-color: #ff0000;
+}
+
+/* Flag of Estonia should be here */
+
+.estonia_material{
+    height: 300px;
+    width: 450px;
+    background-color: #e3f2fd;
+    border: 1px solid #bbdefb;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.estonia{
+    height: 200px;
+    width: 400px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.estonia_flag_a{
+    height: 66.6px;
+    width: 400px;
+    background-color: #0000ff;
+}
+
+.estonia_flag_b{
+    height: 66.6px;
+    width: 400px;
+    background-color: #000000;
+}
+
+.estonia_flag_c{
+    height: 66.6px;
+    width: 400px;
+    background-color: #ffffff;
+}
+
+/* Flag of France should be here */
+
+.france_material{
+    height: 300px;
+    width: 450px;
+    background-color: #e3f2fd;
+    border: 1px solid #bbdefb;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.france{
+    height: 200px;
+    width: 400px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.france_flag_a{
+    height: 200px;
+    width: 133.3px;
+    background-color: #0000ff;
+    float: left;
+}
+
+.france_flag_b{
+    height: 200px;
+    width: 133.3px;
+    background-color: #ffffff;
+    float: left;
+}
+
+.france_flag_c{
+    height: 200px;
+    width: 133.3px;
+    background-color: #ff0000;
+    float: left;
+}
+
+/* Flag of Gabon should be here */
+
+.gabon_material{
+    height: 300px;
+    width: 450px;
+    background-color: #e8f5e9;
+    border: 1px solid #c8e6c9;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.gabon{
+    height: 200px;
+    width: 400px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.gabon_flag_a{
+    height: 66.6px;
+    width: 400px;
+    background-color: #008000;
+    float: left;
+}
+
+.gabon_flag_b{
+    height: 66.6px;
+    width: 400px;
+    background-color: #ffcc00;
+    float: left;
+}
+
+.gabon_flag_c{
+    height: 66.6px;
+    width: 400px;
+    background-color: #0000ff;
+    float: left;
+}
+
+/* Flag of Monaco should be here */
+
+.monaco_material{
+    height: 300px;
+    width: 450px;
+    background-color: #fce4ec;
+    border: 1px solid #f8bbd0;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.monaco{
+    height: 200px;
+    width: 400px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.monaco_flag_a{
+    height: 100px;
+    width: 400px;
+    background-color: #ff0000;
+}
+
+.monaco_flag_b{
+    height: 100px;
+    width: 400px;
+    background-color: #ffffff;
+}
+
+/* Flag of Poland should be here */
+
+.poland_material{
+    height: 300px;
+    width: 450px;
+    background-color: #e3f2fd;
+    border: 1px solid #bbdefb;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.poland{
+    height: 200px;
+    width: 400px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.poland_flag_a{
+    height: 100px;
+    width: 400px;
+    background-color: #ffffff;
+}
+
+.poland_flag_b{
+    height: 100px;
+    width: 400px;
+    background-color: #ff0000;
+}
+
+/* Flag of Ukraine should be here */
+
+.ukraine_material{
+    height: 300px;
+    width: 450px;
+    background-color: #e3f2fd;
+    border: 1px solid #bbdefb;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.ukraine{
+    height: 200px;
+    width: 400px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.ukraine_flag_a{
+    height: 100px;
+    width: 400px;
+    background-color: #0000ff;
+}
+
+.ukraine_flag_b{
+    height: 100px;
+    width: 400px;
+    background-color: #ffcc00;
+}
+
+/* Flag of Russia should be here */
+
+.russia_material{
+    height: 300px;
+    width: 450px;
+    background-color: #e3f2fd;
+    border: 1px solid #bbdefb;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.russia{
+    height: 200px;
+    width: 400px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.russia_flag_a{
+    height: 66.6px;
+    width: 400px;
+    background-color: #ffffff;
+}
+
+.russia_flag_b{
+    height: 66.6px;
+    width: 400px;
+    background-color: #0000ff;
+}
+
+.russia_flag_c{
+    height: 66.6px;
+    width: 400px;
+    background-color: #ff0000;
+}
+
+/* Flag of UAE should be here */
+
+.uae_material{
+    height: 300px;
+    width: 450px;
+    background-color: #e8f5e9;
+    border: 1px solid #c8e6c9;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.uae{
+    height: 200px;
+    width: 400px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.uae_flag_a{
+    height: 200px;
+    width: 100px;
+    background-color: #008000;
+    float: left;
+}
+
+.uae_flag_b{
+    height: 66.6px;
+    width: 300px;
+    background-color: #ff0000;
+    float: left;
+}
+
+.uae_flag_c{
+    height: 66.6px;
+    width: 300px;
+    background-color: #ffffff;
+    float: left;
+}
+
+.uae_flag_d{
+    height: 66.6px;
+    width: 300px;
+    background-color: #000000;
+    float: left;
+}
+
+/* Flag of Yemen should be here */
+
+.yemen_material{
+    height: 300px;
+    width: 450px;
+    background-color: #fce4ec;
+    border: 1px solid #f8bbd0;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.yemen{
+    height: 200px;
+    width: 400px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.yemen_flag_a{
+    height: 66.6px;
+    width: 400px;
+    background-color: #ff0000;
+}
+
+.yemen_flag_b{
+    height: 66.6px;
+    width: 400px;
+    background-color: #ffffff;
+}
+
+.yemen_flag_c{
+    height: 66.6px;
+    width: 400px;
+    background-color: #000000;
+}
